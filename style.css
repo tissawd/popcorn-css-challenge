@@ -3,3 +3,71 @@ Header background - #FFDBAA
 button - #805215
 Header Text - #553100
 Main background - #D4A76A*/
+
+body,html { 
+  height:100%;
+}
+
+.pageButton {
+
+  background-color:#805215;
+  color:white;
+
+}
+
+h1 {
+  display:inline;
+}
+
+header{
+  height:10%;
+  width: 100%;
+  background-color: #FFDBAA;
+  color:#553100;
+  float:left;
+  
+}
+
+main {
+  height:inherit;
+  width: 100%;
+  background-color: #D4A76A;
+  clear:left;
+}
+.dataBox {
+  
+  padding:10px;
+  background-color: white;
+  margin:15px;
+  text-align:center;
+  border: solid black;
+  height:inherit;
+  width:20%;
+  float:left
+
+}
+
+.parentBox{
+  height:15rem;
+  padding:10px;
+}
+
+.ipsumBox{
+  margin:15px;
+  background-color: white;
+  text-align: center;
+  box-sizing: content-box;
+  border:solid black;
+  height:30%;
+  width:90%;
+  clear: both;
+}
+.btmBtn{
+  width:90%;
+  height:20%;
+  background-color: #805215;
+  color:white;
+}
+
+
+
