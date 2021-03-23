@@ -8,10 +8,15 @@ body,html {
   height:100%;
 }
 
-.pageButton {
+button {
 
   background-color:#805215;
   color:white;
+
+}
+
+.headerButton{
+  flex: 1 1 20%;
 
 }
 
@@ -25,6 +30,9 @@ header{
   background-color: #FFDBAA;
   color:#553100;
   float:left;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   
 }
 
@@ -35,7 +43,6 @@ main {
   clear:left;
 }
 .dataBox {
-  
   padding:10px;
   background-color: white;
   margin:15px;
@@ -48,7 +55,11 @@ main {
 }
 
 .parentBox{
-  height:15rem;
+  display: flex;
+  flex: row nowrap;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 30%;
   padding:10px;
 }
 
